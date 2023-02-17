@@ -16,15 +16,15 @@ int main(void)
 	/* Assign a random number to the variable n each time it is executed */
 	if (n > 0)
 	{
-		printf("%d is positive \n",n);
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative \n",n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("%d is Zero \n",n);
+		printf("%d is Zero\n", n);
 }
 	return (0);
 }
