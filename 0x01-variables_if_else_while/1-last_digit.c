@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main: a program to print the last digit stored in a variable
+ * main - Entry point
+ * Description: 'a program to print the last digit stored in a variable'
  *
  * Return: 0 (success)
  */
@@ -16,15 +17,15 @@ int main(void)
 	/* assign a random number to the variable n each time it is executed */
 	if (n % 10 > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, n % 10);
+		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 	}
 	else if (n % 10 == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is 0\n", n, n % 10);
 	}
 	else
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 }
 	return (0);
 }
