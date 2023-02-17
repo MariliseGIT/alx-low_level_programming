@@ -13,7 +13,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("%d \n");
+	printf("%d \n", n);
 
 	/* Assign a random number to the variable n each time it is executed */
 	if (n > 0)
