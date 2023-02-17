@@ -10,17 +10,18 @@
  */
 int main(void)
 {
-	int i;
+	int x = 48;
 
-	for (i = 48 ; i <= 58; i++)
+	while (x < 58)
 	{
-		putchar(i);
+		putchar(x);
 	}
-	if (i < 57)
+	if (x < 57);
 	{
 		putchar(44);
 		putchar(32);
 	}
+	x++;
 	putchar('\n');
 	return (0);
 }
