@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(low);
 	}
-	for (low = 'A'; low <= 'Z'; low++);
+	while (low = 'A'; low <= 'Z'; low++);
 	{
 		putchar(low);
 	}
