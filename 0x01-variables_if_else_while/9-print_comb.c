@@ -10,16 +10,16 @@
  */
 int main(void)
 {
-	int d;
+	int i = 0;
 
-	for (d = '0'; d <= '9'; d++)
+	while (i < 10)
 	{
-		putchar(d);
+		putchar( i + '0');
 	}
-	if (d != '9')
+	if (i < 9)
 	{
-		putchar(',');
-		putchar(' ');
+		putchar(44);
+		putchar(32);
 	}
 	putchar('\n');
 	return (0);
