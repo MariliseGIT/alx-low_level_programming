@@ -8,28 +8,25 @@
 
 int main(void)
 {
-	int x;
+	int n;
 
 	srand(time(0));
 	x = rand() - RAND_MAX / 2;
 
-	printf("%d \n", x);
+	printf("%d \n", n);
 
 	/* Assign a random number to the variable n each time it is executed */
-	if (x > 0)
+	if (n > 0)
 	{
-		printf("positive\n", x);
-		pos++;
+		printf("%d is positive\n", n);
 	}
-	else if (x < 0)
+	else if (n < 0)
 	{
-		printf("negative\n", x);
-		neg++;
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("Zero\n", x);
-		x == 0;
+		printf("%d is Zero\n", n);
 }
 	return (0);
 }
