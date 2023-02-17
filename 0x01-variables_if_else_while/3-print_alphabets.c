@@ -5,17 +5,15 @@
  * main - Entry point
  * Description: A program that prints the alphabet in lowercase and uppercase
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	char low;
 
 	for (low = 'a'; low <= 'z'; low++)
-	{
-		putchar(low);
-	}
-	while (low = 'A'; low <= 'Z'; low++);
+	
+		for (low = 'A'; low <= 'Z'; low++);
 	{
 		putchar(low);
 	}
