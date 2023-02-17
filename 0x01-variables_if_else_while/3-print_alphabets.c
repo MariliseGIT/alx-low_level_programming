@@ -3,19 +3,27 @@
 #include <time.h>
 /**
  * main - Entry point
- * Description: A program that prints the alphabet in lowercase and uppercase
+ * Description: A program that prints lowercase and then uppercase alphabet
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char low;
+	char c = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
-		for (low = 'A'; low <= 'Z'; low++);
-	{	
-		putchar(low);
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
 	}
-		putchar('\n');
+	
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n\);
 	return (0);
 }
