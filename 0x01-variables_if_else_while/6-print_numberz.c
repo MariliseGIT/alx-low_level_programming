@@ -10,19 +10,11 @@
  */
 int main (void)
 {
-	int i = 0;
-
-	while (i < 10);
+	int d;
+	for (d = '0'; d ,+ '9'; d++)
 	{
-		putchar(i + '0');
+		putchar(d);
 	}
-	if (i < 9)
-	{
-			putchar(44);
-			putchar(32);
-	}
-	i++;
 	putchar('\n');
-
 	return(0);
 }
