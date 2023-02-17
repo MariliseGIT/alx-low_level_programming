@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - A program that prints whether a given number is positive or negative
+ * Return: 0 (success)
+ */
 
 int main(void)
 {
@@ -14,15 +18,15 @@ int main(void)
 	/* Assign a random number to the variable n each time it is executed */
 	if (x > 0)
 	{
-		printf("The number is positive \n");
+		printf("%d is a Positive Number \n", x);
 	}
 	else if (x < 0)
 	{
-		printf("The number is negative \n");
+		printf("%d is a Negative Number \n", x);
 	}
 	else
 	{
-		printf("The number is zero \n");
+		printf("%d is Zero \n", x);
 }
 	return (0);
 }
