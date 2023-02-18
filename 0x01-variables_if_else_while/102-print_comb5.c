@@ -14,14 +14,14 @@ int main(void)
 	for (i = 0; i < 100; i++)
 	{
 		a  = j / 10; /* doubles fnum */
-		b =i % 10; /* singles fnum */
+		b = i % 10; /* singles fnum */
 
-		for (j = 0; j <100; j++)
+		for (j = 0; j < 100; j++)
 		{
-			c = j /10; /* doubles snum */
-			d = j % 10; /* singles snum */
+			c = j /10; /* doubles snum */ 
+			d = j % 10; /* singles snum */ 
 
-			if (a < c || ( a == c && b < d))
+			if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
