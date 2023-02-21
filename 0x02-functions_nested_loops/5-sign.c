@@ -28,4 +28,5 @@ int print_sign(int n)
 		putchar(48);
 		return (0);
 	}
+	putchar('\n')
 }
