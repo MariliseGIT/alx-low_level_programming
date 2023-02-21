@@ -3,8 +3,7 @@
 #include <ctype.h>
 /*
  * _islower - tests whether a given character is a lowercase letter.
- *
- * @param c: the character to be tested.
+ * @c: number checked
  *
  *Return 1 if character is lowercase, otherwise 0.
  */
