@@ -1,1 +1,3 @@
-int _putchar(char "_putchar")
+int _putchar(char c) {
+	return putchar(c);
+}
