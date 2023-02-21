@@ -4,7 +4,7 @@
  * _islower - Entry point
  * Description: _islower tests whether a given character is a lowercase letter.
  *
- * @c: the character to be checked.
+ * @param c: the character to be tested.
  *
  *Return 1 if character is lowercase, otherwise 0.
  */
