@@ -17,5 +17,6 @@ int print_last_digit(int n)
 	else
 		k = n % 10;
 	putchar((k % 10) + '0');
+	putchar('\n');
 	return (k % 10);
 }
