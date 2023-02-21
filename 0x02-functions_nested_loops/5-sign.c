@@ -18,7 +18,7 @@ int main(void)
 	r = print_sign(98);
 	putchar(',');
 	putchar(' ');
-	putchar('r + '0');
+	putchar(r + '0');
 	putchar('\n');
 	r = print_sign(0);
 	putchar(',');
@@ -29,5 +29,5 @@ int main(void)
 	putchar(' ');
 	putchar(r + '0');
 	pucthar('\n');
-	return(0);
+	return (0);
 }
