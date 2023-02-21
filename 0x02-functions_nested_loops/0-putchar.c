@@ -6,13 +6,6 @@
  *
  * Return: 0 (success)
  */
-int _putchar(char c);
-
-int _putchar(char c)
-{
-	returnputchar(c);
-}
-
 int main(void)
 {
 	_putchar('_');
@@ -24,5 +17,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
