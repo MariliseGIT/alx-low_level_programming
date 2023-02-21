@@ -6,9 +6,13 @@
  *
  * Return: 0 (success)
  */
-int _putchar(char c) { //print the word "_putchar" using the fuction int _putchar(char c);
-	return putchar(c);
+int _putchar(char c);
+
+int _putchar(char c)
+{
+	returnputchar(c);
 }
+
 int main(void)
 {
 	_putchar('_');
