@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <ctype.h>
 #include "main.h"
+#include <ctype.h>
 /*
  * _islower - tests whether a given character is a lowercase letter.
  *
