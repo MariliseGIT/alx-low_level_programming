@@ -1,11 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include <ctype.h>
 #include "main.h"
 /*
- * _islower - entry point
- * Description: tests whether a given character is a lowercase letter.
+ * _islower - tests whether a given character is a lowercase letter.
  *
  * @param c: the character to be tested.
  *
