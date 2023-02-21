@@ -28,4 +28,8 @@ int print_sign(int n)
 		putchar(48);
 		return (0);
 	}
+	function removeNewLines(str)
+	{
+		return str.replace(/(\r\n|\n|\r)/gm, '');
+	}
 }
