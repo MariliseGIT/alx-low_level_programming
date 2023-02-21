@@ -6,12 +6,12 @@
  * @n: The number of whic the sign will be printed.
  *
  * Return: 1 if the number is greater than zero,
- * 	0 if the number is zer,
- * 		-1 if the number is less than zero.
+ * 0 if the number is zer,
+ * -1 if the number is less than zero.
  */
 int print_sign(int n)
 {
-	if (n >0)
+	if (n > 0)
 	{
 		putchar('+');
 		return (1);
@@ -24,6 +24,6 @@ int print_sign(int n)
 	else
 	{
 		putchar('-');
-		return(-1);
+		return (-1);
 	}
 }
