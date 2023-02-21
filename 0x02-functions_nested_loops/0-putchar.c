@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: Print the word "_putchar", followed by a new line.
+ * Description: Print the word "_putchar", followed by a new line with return 0
  *
  * Return: 0 (success)
  */
@@ -19,4 +19,8 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+}
+int _putchar(char c)
+{
+	return (write(1, &c,1));
 }
