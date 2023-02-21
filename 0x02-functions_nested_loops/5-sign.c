@@ -11,23 +11,21 @@
  * 0 if the number is zer,
  * -1 if the number is less than zero.
  */
-int main(void)
+int print_sign(int n)
 {
-	int r;
-
-	r = print_sign(98);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0);
-	putchar(',');
-	putchar(r + '0');
-	putchar('\n');
-	r= print_sign(0xff);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
+	if (n > 0)
+	{
+		putchar(43);
+		return (1);
+	}
+	else if (n < 0)
+	{
+		putchar (45);
+		return (-1);
+	}
+	else
+	{
+		putchar(48);
+		return (0);
+	}
 }
