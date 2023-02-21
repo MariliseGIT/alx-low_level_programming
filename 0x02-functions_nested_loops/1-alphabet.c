@@ -8,12 +8,6 @@
  */
 int main(void)
 {
-	char low;
-	
-	for (low = 'a'; low <= 'z' ; low++)
-	{
-		putchar(low);
-	}
-	putchar('\n');
+	print_alphabet()
 	return (0);
 }
