@@ -2,10 +2,9 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * print_last_digit - entry point
- *@n:the number in question
+ * print_last_digit - Check Main
+ *@r: input an integer
  * Description: Print the last digit of a number.
- * 
  * Return: Value of the last digit.
  */
 int print_last_digit(int r)
