@@ -2,7 +2,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * print_70_98 - Check Main
+ * print_to_98 - Check Main
  * @n: An input integer
  * Description: Function that prints all natuaral numbers
  * from n to 98, followed by a new line.
@@ -10,7 +10,7 @@
  */
 void print_to_98(int n)
 {
-	if (n >=98)
+	if (n >= 98)
 	{
 		while (n > 98)
 			printf("%d, ", n--);
