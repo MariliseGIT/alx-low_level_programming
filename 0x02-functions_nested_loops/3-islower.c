@@ -3,7 +3,7 @@
 #include <ctype.h>
 /*
  * _islower - Check Main
- * @c: number checked
+ * @c: input checked
  * Description: Use putchar to print lowercase 10x.
  *
  *Return 1 if character is lowercase, otherwise 0.
