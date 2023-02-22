@@ -2,8 +2,9 @@
 #include "main.h"
 #include <ctype.h>
 /*
- * _islower - tests whether a given character is a lowercase letter.
+ * _islower - Check Main
  * @c: number checked
+ * Description: Use putchar to print lowercase 10x.
  *
  *Return 1 if character is lowercase, otherwise 0.
  */
