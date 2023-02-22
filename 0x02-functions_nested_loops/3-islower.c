@@ -4,7 +4,8 @@
 /*
  * _islower - Check Main
  * @c: input checked
- * Description: Use putchar to print lowercase 10x.
+ *
+ * Description: Use putchar to print a given character in lowercase 10x.
  *
  *Return 1 if character is lowercase, otherwise 0.
  */
