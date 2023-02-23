@@ -3,6 +3,7 @@
 #include <ctype.h>
 /**
  * print_diagonal - Draws a diagonal line using the \ character.
+ * Use the function _putchar.
  * @n: The number of \ characters to be printed.
  */
 void print_diagonal(int n)
