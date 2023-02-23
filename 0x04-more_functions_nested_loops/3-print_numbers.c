@@ -5,7 +5,6 @@
  * print_numbers - check main
  * Description: print the numbers from 0-9, followed by a new line.
  *
- * Return: 0 (success)
  */
 void print_numbers(void)
 {
@@ -16,5 +15,4 @@ void print_numbers(void)
 		_putchar((num % 10) + '0');
 	}
 	_putchar('\n');
-	return (0);
 }
