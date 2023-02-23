@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	long prime = 612852475143, div;
+	int div;
+	long prime = 612852475143;
 
 	while (div < (prime / 2))
 	{
@@ -18,7 +19,7 @@ int main(void)
 			continue;
 		}
 
-		for (div = 3; div < (prime / 2); dive += 2)
+		for (div = 3; div < (prime / 2); div += 2)
 		{
 			if ((prime % div) == 0)
 				prime /= div;
