@@ -1,5 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
+#include <time.h>
+#include <ctype.h>
 /**
  * print_remaining_days - check main
  * @month: month in number format
