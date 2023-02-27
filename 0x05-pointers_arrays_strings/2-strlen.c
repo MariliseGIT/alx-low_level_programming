@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.c>
 /**
  * _strlen - Returns the length of a sting.
  * @s: char
