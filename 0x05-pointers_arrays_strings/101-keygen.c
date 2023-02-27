@@ -1,4 +1,4 @@
-#includi <stdio.h>
+#include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
 #include <time.h>
@@ -26,7 +26,7 @@ int main(void)
 	}
 	a[i++] = (2772 - n);
 	a[i] = '\0';
-	print("%s", a);
+	printf("%s", a);
 
 	return (0);
 }
