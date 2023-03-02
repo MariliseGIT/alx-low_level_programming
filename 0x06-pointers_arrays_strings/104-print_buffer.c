@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-#include <ctype.c>
+#include <ctype.h>
 /**
  * print_buffer - Prints a buffer.
  * @b: char
