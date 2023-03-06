@@ -24,5 +24,5 @@ void print_diagsums(int *a, int size)
 		a -= size;
 	}
 
-	print("%d, &d\n", s1, s2);
+	printf("%d, %d\n", s1, s2);
 }
