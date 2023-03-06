@@ -1,0 +1,1 @@
+Project: 0x00.C-Hello, World . This repository contains low level C programming working with a preprocessor,complier, assembly, complining a C file, writing  C programs that prints exact lines and size of various types on the computer it is compiled and run on.
