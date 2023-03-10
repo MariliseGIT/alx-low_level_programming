@@ -2,16 +2,17 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - Print minimum number of coints to make chanfe
+ * main - Print minimum number of coints to make change
  * for an amount of money.
  * @argc: number of arguments supplied to the program
+ * @argv: string
  * Return: -1 if number of arguments is not exactly 1
  * 0 otherwise.
  */
-int main(int argc, char *argv [])
+int main(int argc, char *argv[])
 {
-	int cents, coins = 0;
-	
+int cents, coins = 0;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
