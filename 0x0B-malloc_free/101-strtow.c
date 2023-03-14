@@ -84,6 +84,7 @@ char **strtow(char *str)
 			p[i][j] = str[getfchar + j];
 		p[i][j] = '\0';
 	}
+	free(p);
 	p[i] = NULL;
 	return (p);
 }
