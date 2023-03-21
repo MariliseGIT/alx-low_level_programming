@@ -1,9 +1,7 @@
 #include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "dog.h"
 /**
- * new_dog - A function that creates a new dog structure.
+ * new_dog - Create a new dog structure.
  * @name: the name of the dog.
  * @age: the age of the dog.
  * @owner: the owner of the dog.
@@ -37,14 +35,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	cpyowner = malloc(len_owner + 1);
 	if (cpyowner == NULL)
 		return (NULL);
-	for (i = 0; i < len_owner; i++)
+	for (i = 0; owner[i]; i++)
 		cpyowner[i] = owner[i];
 	cpyowner[i] = '\0';
 
 	new_dog->name = cpyname;
 	new_dog->age = age;
 	new_dog->owner = cpyowner;
-	free(cpyname);
-	free(cpyowner);
 	return (new_dog);
 }
