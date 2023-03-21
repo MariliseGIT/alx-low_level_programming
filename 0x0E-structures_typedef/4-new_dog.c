@@ -28,7 +28,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	cpyname = malloc(len_name + 1);
 	{
 		if (cpyname == NULL)
-		free(new_dog);
 		return (NULL);
 		for (i = 0; name[i]; i++)
 		cpyname[i] = name[i];
