@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * new_dog - Create a new dog structure.
+ * new_dog - A function that creates a new dog structure.
  * @name: the name of the dog.
  * @age: the age of the dog.
  * @owner: the owner of the dog.
- * Retunr: pointer to newly created dog structure.
+ * Return: pointer to newly created dog structure.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -27,6 +27,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	cpyname = malloc(len_name + 1);
 	if (cpyname == NULL)
+		free(new_dog);
 		return (NULL);
 	for (i = 0; name[i]; i++)
 		cpyname[i] = name[i];
@@ -34,6 +35,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	cpyowner = malloc(len_owner + 1);
 	if (cpyowner == NULL)
+		free(cpyname);
+			free(new_dog);
 		return (NULL);
 	for (i = 0; owner[i]; i++)
 		cpyowner[i] = owner[i];
