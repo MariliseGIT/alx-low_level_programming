@@ -2,6 +2,7 @@
 #include "3-calc.h"
 #include <stdio.h>
 #include <string.h>
+#include "3-get_op_func.c"
 /**
  * main - Program to perform simple operations.
  * @argc: argument count.
